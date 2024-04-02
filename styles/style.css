@@ -17,6 +17,15 @@
 	font-family: "bronice";
 	src: url("../fonts/bronice.regular.otf");
 }
+@font-face {
+	font-family: "great-vibes";
+	src: url("../fonts/great-vibes.regular.ttf");
+}
+@font-face {
+	font-family: "mona";
+	src: url("../fonts/mona-regular.ttf");
+	src: url("../fonts/mona-regular.otf");
+}
 
 
 
@@ -37,21 +46,25 @@ h1 {
 h2 {
 	font-family: "skinny-drip";
 	color: gold;
-	font-size: 100px;
+	font-size: 5rem;
+	flex-wrap: nowrap;
 }
 h3 {
-	font-family: "skinny-drip";
+	font-family: "great-vibes";
+	color: gold;
+	font-size: 88px;
 }
 
 p {
 	font-family: "bronice";
-	font-size: 32pt;
+	font-size: 10pt;
 }
 
 img {
 	border-color: gold;
 	border-style: solid;
 	border-width: 10px;
+	width: 500px;
 }
 
 #caramilk {
@@ -63,4 +76,11 @@ img {
 }
 #cheesecake {
 	color:antiquewhite;
+}
+
+section {
+	display: flex;
+}
+div {
+	width: 48%;
 }

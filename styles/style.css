@@ -57,7 +57,9 @@ h3 {
 
 p {
 	font-family: "bronice";
-	font-size: 10pt;
+	font-size: 20pt;
+	word-spacing: 4px;
+	line-height: 41px;
 }
 
 img {

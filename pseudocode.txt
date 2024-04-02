@@ -1,7 +1,7 @@
 Pseudocode
 
 
-Flexbox Cadbury Section 1533
+
 Liquid CSS Measurements attempt
 
 Try images with thick border colour of each current colour
@@ -26,7 +26,7 @@ Blackboard Submission
 
 DEBUGGING
 Font Kerning
-Fucking colour gaps
+
 
 
 EXTRAS
@@ -48,3 +48,5 @@ Header
   - custom colour 1444 1508
 Cheesecake section 1509 1518
 apply paragraph custom font 1519 1526
+Flexbox Cadbury Section 1533 1604
+	colour gaps [lucky, fixed with flexbox]

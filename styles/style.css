@@ -1,9 +1,66 @@
-html{scroll-behavior: smooth;}
+/* Custom Font Imports */
+@font-face {
+	font-family: "caramel-ichor";
+	src: url("../fonts/bloody-ichor-extrude.ttf");
+}
+
+@font-face {
+	font-family: "melted";
+	src: url("../fonts/melted-personal-use.ttf");
+}
+
+@font-face {
+	font-family: "skinny-drip";
+	src: url("../fonts/skinny-drip.ttf");
+}
+@font-face {
+	font-family: "bronice";
+	src: url("../fonts/bronice.regular.otf");
+}
+
+
+
+html{
+	scroll-behavior: smooth;
+	background-color: #312509;
+}
+
+h1 {
+	font-family: 'caramel-ichor';
+	font-size: 75px;
+	color: gold;
+	background-color: #312509; /* Cafe Noir */
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+h2 {
+	font-family: "skinny-drip";
+	color: gold;
+	font-size: 100px;
+}
+h3 {
+	font-family: "skinny-drip";
+}
+
+p {
+	font-family: "bronice";
+	font-size: 32pt;
+}
+
+img {
+	border-color: gold;
+	border-style: solid;
+	border-width: 10px;
+}
 
 #caramilk {
 	background-color: #482683; /* Spanish Violet */
 }
 
 #kawartha {
-	background-color: #C7E8F3; /* Columbia Blue */
+	background-color: #207A97; /* Pacific Cyan */
+}
+#cheesecake {
+	color:antiquewhite;
 }

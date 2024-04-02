@@ -1,0 +1,48 @@
+Pseudocode
+
+Header
+  - custom font
+  - custom colour
+
+Cheesecake section
+another section?
+
+Try images with thick border colour of each current colour
+Try a different background colour so it looks a little less... basic
+
+apply paragraph custom font
+any other needed custom font
+
+Footer
+- can't remember the details, 
+
+
+Flexbox Cadbury Section
+Liquid CSS Measurements attempt
+
+
+W3Validator ~ HTML
+W3Validator ~ CSS
+
+
+
+GitHub Commit I + II
+LAMP upload
+Blackboard Submission
+
+
+
+
+Extras
+
+Gradient?
+Font Kerning
+
+
+
+
+
+
+
+
+DONE

@@ -3,28 +3,17 @@
 	font-family: "caramel-ichor";
 	src: url("../fonts/bloody-ichor-extrude.ttf");
 }
-
-@font-face {
-	font-family: "melted";
-	src: url("../fonts/melted-personal-use.ttf");
-}
-
 @font-face {
 	font-family: "skinny-drip";
 	src: url("../fonts/skinny-drip.ttf");
-}
-@font-face {
-	font-family: "bronice";
-	src: url("../fonts/bronice.regular.otf");
 }
 @font-face {
 	font-family: "great-vibes";
 	src: url("../fonts/great-vibes.regular.ttf");
 }
 @font-face {
-	font-family: "mona";
-	src: url("../fonts/mona-regular.ttf");
-	src: url("../fonts/mona-regular.otf");
+	font-family: "bronice";
+	src: url("../fonts/bronice.regular.otf");
 }
 
 
@@ -46,7 +35,7 @@ h1 {
 h2 {
 	font-family: "skinny-drip";
 	color: gold;
-	font-size: 5rem;
+	font-size: 5.5rem;
 	flex-wrap: nowrap;
 }
 h3 {
@@ -57,7 +46,7 @@ h3 {
 
 p {
 	font-family: "bronice";
-	font-size: 20pt;
+	font-size: 15pt;
 	word-spacing: 4px;
 	line-height: 41px;
 }
@@ -69,20 +58,49 @@ img {
 	width: 500px;
 }
 
+section {
+	display: flex;
+}
+
 #caramilk {
 	background-color: #482683; /* Spanish Violet */
 }
 
+#caramilk > div {
+	width: 48%;
+}
+
+
 #kawartha {
 	background-color: #207A97; /* Pacific Cyan */
+	text-align: center;
+	width: 100%;
+	
+}
+#kawartha div {
+	width: 100%;
+	margin: auto;
 }
 #cheesecake {
 	color:antiquewhite;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+#cheesecake div {
+	width: 100%;
+	margin: auto;
 }
 
-section {
-	display: flex;
+footer {
+	background-color: black;
+	color: ghostwhite;
+	text-align: center;
 }
-div {
-	width: 48%;
+img.skull {
+	border: none;
+	width: auto;
+}
+ul {
+	list-style-type: none;
 }

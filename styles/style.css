@@ -63,7 +63,9 @@ section {
 }
 
 #caramilk {
-	background-color: #482683; /* Spanish Violet */
+	/* background-color: #482683; Spanish Violet */
+	background: rgb(6,0,111);
+	background: linear-gradient(66deg, rgba(6,0,111,1) 0%, rgba(72,38,131,1) 35%, rgba(129,0,255,1) 100%); 
 }
 
 #caramilk > div {
@@ -72,7 +74,9 @@ section {
 
 
 #kawartha {
-	background-color: #207A97; /* Pacific Cyan */
+	/* background-color: #207A97; Pacific Cyan */
+	background: rgb(72,38,131);
+	background: linear-gradient(352deg, rgba(72,38,131,1) 0%, rgba(32,122,151,1) 100%); 
 	text-align: center;
 	width: 100%;
 	
@@ -82,6 +86,8 @@ section {
 	margin: auto;
 }
 #cheesecake {
+	background: rgb(126,67,67);
+	background: linear-gradient(66deg, rgba(126,67,67,1) 0%, rgba(49,37,9,1) 100%); 
 	color:antiquewhite;
 	text-align: center;
 	margin: auto;
